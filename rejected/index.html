@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/0d0d4c02d6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+
+
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar  w3-card" id="myNavbar">
+      <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">
+    <img src="../assets/LOGO.svg" alt="logo" style="width:40px;">
+  </a> 
+     <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button" style="color: white;"> <i class="fas fa-home" > </i> HOME</a>
+      
+      
+      <a href="#itsteam" class="w3-bar-item w3-button"  style="color: white;"><i class="fa fa-users" ></i> TEAMS</a>
+      <a href="creators.html" class="w3-bar-item w3-button"  style="color: white;"><i class="fa fa-th"></i> CREATORS</a>
+      <a href="#pricing" class="w3-bar-item w3-button"  style="color: white;"><i class="fas fa-trophy"></i> ACHIVEMENTS</a>
+      <a href="jersey.html" class="w3-bar-item w3-button" style="color: white;"> <i class="fas fa-tshirt"></i>  MARCHENDISE</a>
+      <a href="#contact" class="w3-bar-item w3-button"  style="color: white;"><i class="fa fa-icons"></i> DESIGNERS</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"  style="color: white;"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  
+  
+  <a href="#itsteam" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="creators.html" onclick="w3_close()" class="w3-bar-item w3-button">CREATORS</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">ACHIVEMENTS</a>
+  <a href="jersey.html" onclick="w3_close()" class="w3-bar-item w3-button"></a>MARCHENDISE
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">DESIGNERS</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Gaming Like 47</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
+    <span class="w3-large">SPONSORED BY</span>
+    <p><a href="https://www.techlandbd.com/" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">TechLand</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity" style="color: white;"></i>
+    <i class="fa fa-instagram w3-hover-opacity" style="color: white;"></i>
+    <i class="fa fa-snapchat w3-hover-opacity" style="color: white;"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity" style="color: white;"></i>
+    <i class="fa fa-twitter w3-hover-opacity" style="color: white;"></i>
+    <i class="fa fa-linkedin w3-hover-opacity" style="color: white;"></i>
+  </div>
+</header>
+
+<!--ends-->
+
+<!-- About Section -->
+<div style="background:linear-gradient(-100deg,black 50%,#05172b 50%)">
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide" style="color: white">KNOW ABOUT US</h2>
+    <p class="w3-opacity"><i  style="color: white">jambura gay</i></p>
+    <p class="w3-justify"  style="color: white">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p  style="color: white">RONIN SEXY</p>
+        <img src="f.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p  style="color: white">RONIN SEXY</p>
+        <img src="f.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p  style="color: white">RONIN SEXY</p>
+        <img src="f.jpg" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+</div>
+ <!--ends-->
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-dark">
+  <div class="w3-display-middle">
+    <img src="image/LOGO_PNG.png" style="width: 85px">
+     <span class="w3-xxlarge w3-text-white w3-wide">GL47</span>
+  </div>
+</div>
+<!--ends-->
+<!--team section-->
+
+
+  <!-- Grid -->
+  <div id="itsteam" style="background-color:#05172b; min-height:800px;">
+  <div class="w3-row-padding " id="about" >
+    <div class="w3-center w3-padding-64">
+      <h2 style="color: white;">TEAMS</h2>
+      
+    </div>
+
+    <div class="w3-third w3-margin-bottom" style="padding: 0px 30px;margin: auto;">
+       <h2 style="color: white;text-align: center;border-bottom: 2px solid white" hre>VALORANT</h2>
+      <div class="w3-card-4">
+        <a href="spartans.html">
+        <img src="image/Valorant-logo.jpg" alt="John" class="gameimg" style="width:100%; height: 100%;margin: auto;">
+        </a>
+        <div class="w3-container">
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom" style="padding: 0px 30px">
+      <h2 style="color: white;text-align: center;border-bottom: 2px solid white">APEX</h2>
+      <div class="w3-card-4">
+        <a href="#">
+        <img src="image/wp4013121-apex-legends-hd-wallpapers.jpg" alt="John" class="gameimg" style="width:100%; height: 100%">
+        </a>
+        <div class="w3-container">
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom" style="padding: 0px 30px">
+       <h2 style="color: white;text-align: center;border-bottom: 2px solid white">COOMING SOON</h2>
+      <div class="w3-card-4">
+        <a class="">
+        <img src="image/coming-soon.png" alt="John" class="gameimg" style="width:100%; height: 100%">
+        </a>
+        <div class="w3-container">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-4 w3-display-container w3-opacity-dark">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">ADMINS</span>
+  </div>
+</div>
+<!--ends-->
+
+<!-- Admin Section -->
+<div style="background:linear-gradient(-100deg,black 50%,#05172b 50%)">
+<div class="container" style="padding:88px 16px;" id="team">
+  <div class=" w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom" style="padding-right: 100px;">
+     <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://cdn.discordapp.com/attachments/831848986188972043/892336178827784202/unknown.png" alt="Avatar" style="width:400px;height:350px;">
+          </div>
+        <div class="flip-card-back">
+         <h1>DAIMU VAI</h1> 
+         <p>CEO</p> 
+         <p>kajer na</p>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="f.jpg" alt="Avatar" style="width:400px;height:350px;">
+          </div>
+        <div class="flip-card-back">
+         <h1>jambura</h1> 
+         <p>gay</p> 
+         <p>hagu player</p>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom" style="padding-left: 350px;">
+     <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://cdn.discordapp.com/attachments/831848986188972043/892337389765279775/unknown.png" alt="Avatar" style="width:400px;height:350px;">
+          </div>
+        <div class="flip-card-back">
+         <h1>xenox</h1> 
+         <p>admin</p> 
+         <p>odin user</p>
+       </div>
+      </div>
+     </div>
+    </div>
+
+
+
+    
+  </div>
+</div>
+
+<!--ends-->
+
+
+
+<!-- Page content -->
+
+<div class="w3-content" style="max-width:1100px">
+
+<!-- Works Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center" style="color: white">Our Features </h1><br>
+      <h4 style="color: white"> jambura gay</h4>
+      <p class="w3-text-grey" style="color: white">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+    
+      <h4 style="color: white">jambura gay</h4>
+      <p class="w3-text-grey" style="color: white">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+    
+      <h4 style="color: white">jambura gay</h4>
+      <p class="w3-text-grey" style="color: white">Vanilla flavored batter with malted flour 7.50</p><br>
+    
+      <h4 style="color: white">jambura gay</h4>
+      <p class="w3-text-grey" style="color: white">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+    
+      <h4 style="color: white">jambura gay</h4>
+      <p class="w3-text-grey" style="color: white">With syrup, butter and lots of berries 8.50</p>    
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="https://cdn.discordapp.com/attachments/775064642870313011/884131936170311740/unknown.png" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+</div>
+ 
+</div>
+
+
+
+<!-- Footer -->
+
+<div class="footer-dark">
+  <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-6 col-md-3 item">
+                  <h3>Services</h3>
+                  <ul>
+                      <li><a href="#">Web design</a></li>
+                      <li><a href="#">Development</a></li>
+                      <li><a href="#">Hosting</a></li>
+                  </ul>
+              </div>
+              <div class="col-sm-6 col-md-3 item">
+                  <h3>About</h3>
+                  <ul>
+                      <li><a href="#">Company</a></li>
+                      <li><a href="#">Team</a></li>
+                      <li><a href="#">Careers</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-6 item text">
+                  <h3>Company Name</h3>
+                  <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+              </div>
+              <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+          </div>
+          <p class="copyright">Company Name © 2018</p>
+      </div>
+  </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+<!-- Credit to https://epicbootstrap.com/snippets/footer-dark -->
+  
+  
+  <!-- Credit to https://bootsnipp.com/snippets/M56El  -->
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  //navbar enimaiton 
+
+  window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-black";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-black", "");
+    }
+}
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+</body>
+</html>
