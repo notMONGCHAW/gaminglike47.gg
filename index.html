@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.1/dist/flowbite.min.css" />
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
     <body class="bg">
@@ -74,25 +75,58 @@
     </nav>
     <br>
         <section>
-            <div class="grid grid-cols-3 gap-4 content-start">
+            <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+                <!--Card 2-->
+                <div class="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
+                  <img class="w-full" src="./assets/events/something is cooking.jpg" alt="something">
+                  <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Site Under-construction</div>
+                    <p class="text-gray-700 text-base">
+                      Join Our Discord for more info.
+                    </p>
+                  </div>
+                  <div class="px-6 pt-4 pb-2">
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#gl47</span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#gaming</span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#something_is_cooking</span>
+                  </div>
+                </div>
+                <!--Card 1-->
                 <div class="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
                     <a href="./src/events.html">
                         <img class="rounded-t-lg" src="./assets/events/banner.png" alt="banner-card">
                     </a>
-                    <div class="p-5">
-                        <a href="https://discord.gg/WgP7Z3yGkJ">
-                            <h5 class="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">Clan Custom Season 2</h5>
-                        </a>
-                        <p class="font-normal text-gray-700 mb-3 dark:text-gray-400">After long awating.The time has come as we welcome you to Clan Custom Season 2 with our sussy clan members. Join discord for more info and up-to-date information</p>
-                        <a href="https://discord.gg/WgP7Z3yGkJ" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center  dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                           Join Discord
-                            <svg class="-mr-1 ml-2 h-4 w-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                        </a>
-                    </div>
+                  <div class="px-6 py-4">
+                    <a href="https://discord.gg/WgP7Z3yGkJ">
+                        <h5 class="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">Clan Custom Season 2</h5>
+                    </a>
+                    <p class="font-normal text-gray-700 mb-3 dark:text-gray-400">After long awating.The time has come as we welcome you to Clan Custom Season 2 with our sussy clan members. Join discord for more info and up-to-date information</p>
+                  </div>
+                    <a href="https://discord.gg/WgP7Z3yGkJ" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center  dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Join Discord
+                         <svg class="-mr-1 ml-2 h-4 w-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </a>
+                   </div>            
+                <!--Card 3-->
+                <div class="rounded overflow-hidden shadow-lg">
+                  <img class="w-full" src="/forest.jpg" alt="Forest">
+                  <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Forest</div>
+                    <p class="text-gray-700 text-base">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                    </p>
+                  </div>
+                  <div class="px-6 pt-4 pb-2">
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#fall</span>
+                  </div>
                 </div>
-            </div>
-    </section>    
+              </div>
+            </div
+        </section>    
     <br>
+    
     <section id="carousel">
         <!-- This is an carousel component -->
             <div class="max-w-2xl mx-auto">
