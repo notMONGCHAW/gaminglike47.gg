@@ -1,11 +1,3 @@
-<!-- TODO: 
-    1: Make the Navbar Global
-    2:Learn Back-End Enough to get the Dashboard working
-    3:Get your shit together to work on the home page again with better code
-    4:Stay Sane while trying to Tackle Insanity
-    5:Finish Farcry 3 so you open up more space on your HDD for that game you bought 4 years ago
-    6:Finish 30% of the site before 1st June
- -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
