@@ -5,3 +5,24 @@
 .bg{
     background-color: #23282F;
 }
+
+.home {
+    position: absolute;
+    top: 37%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+.main-btn {
+    display: inline-block;
+    padding: 14px 50px;
+    background: #5865F2;
+    color: #FFF;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+}
