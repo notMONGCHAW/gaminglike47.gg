@@ -26,3 +26,7 @@
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
 }
+
+.mr-120 {
+    margin-top: 120px;
+}
